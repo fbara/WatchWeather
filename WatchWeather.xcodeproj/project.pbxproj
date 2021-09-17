@@ -15,6 +15,7 @@
 		ADAF11C826F4F147008E923A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF11C726F4F147008E923A /* ComplicationController.swift */; };
 		ADAF11CA26F4F149008E923A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAF11C926F4F149008E923A /* Assets.xcassets */; };
 		ADAF11CD26F4F149008E923A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAF11CC26F4F149008E923A /* Preview Assets.xcassets */; };
+		ADAF11E026F52B72008E923A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF11DF26F52B72008E923A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		ADAF11C926F4F149008E923A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAF11CC26F4F149008E923A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADAF11CE26F4F149008E923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAF11DF26F52B72008E923A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,9 @@
 		ADAF11C226F4F147008E923A /* WatchWeather WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ADAF11DE26F52A45008E923A /* Managers */,
+				ADAF11DD26F52A3E008E923A /* Models */,
+				ADAF11DC26F52A38008E923A /* Views */,
 				ADAF11C326F4F147008E923A /* ContentView.swift */,
 				ADAF11C526F4F147008E923A /* WatchWeatherApp.swift */,
 				ADAF11C726F4F147008E923A /* ComplicationController.swift */,
@@ -129,6 +134,28 @@
 				ADAF11CC26F4F149008E923A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADAF11DC26F52A38008E923A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADAF11DD26F52A3E008E923A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADAF11DE26F52A45008E923A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF11DF26F52B72008E923A /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAF11E026F52B72008E923A /* NetworkManager.swift in Sources */,
 				ADAF11C626F4F147008E923A /* WatchWeatherApp.swift in Sources */,
 				ADAF11C426F4F147008E923A /* ContentView.swift in Sources */,
 				ADAF11C826F4F147008E923A /* ComplicationController.swift in Sources */,
